@@ -19,3 +19,6 @@ def rental_car_cost(days):
 
         new = new -20
     return new
+
+def trip_cost(city, days):
+    return hotel_cost(days) + plane_ride_cost(city) + rental_car_cost(days)
